@@ -185,7 +185,7 @@ Contributions are welcome! Here's how you can help:
 - Verify the mod loaded successfully in the logs
 
 **Build fails:**
-- Ensure you have JDK 21 or higher
+- Ensure you have JDK 17 or higher
 - Try running `./gradlew clean build`
 - Check your internet connection (Gradle needs to download dependencies)
 

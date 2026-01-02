@@ -26,7 +26,6 @@ import java.util.List;
  */
 public class BlockMinerItem extends Item {
 	private static final float MINING_SPEED_MULTIPLIER = 8.0f;
-	private static final int MINING_LEVEL = 3; // Diamond level mining
 
 	public BlockMinerItem(Settings settings) {
 		super(settings.attributeModifiers(createAttributeModifiers()));

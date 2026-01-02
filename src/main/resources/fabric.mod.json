@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "blockminer",
+  "version": "${version}",
+  "name": "Block Miner",
+  "description": "A powerful mining tool mod for Minecraft that enhances mining efficiency",
+  "authors": [
+    "duyanhggg"
+  ],
+  "contact": {
+    "homepage": "https://github.com/duyanhggg/block-miner",
+    "sources": "https://github.com/duyanhggg/block-miner"
+  },
+  "license": "MIT",
+  "icon": "assets/blockminer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.duyanhggg.blockminer.BlockMinerMod"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}

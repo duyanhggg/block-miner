@@ -63,8 +63,9 @@ The tool is effective on:
 
 ### Prerequisites
 
-- Java Development Kit (JDK) 21 or higher
+- Java Development Kit (JDK) 17 or higher
 - Git
+- **Internet connection** (required to download Minecraft, Fabric, and dependencies)
 
 ### Build Steps
 
@@ -83,9 +84,11 @@ The tool is effective on:
    ```cmd
    gradlew.bat build
    ```
+   
+   **Note**: The first build will take several minutes as Gradle downloads Minecraft, Fabric API, and other dependencies.
 
 3. **Locate the Built Mod**:
-   The compiled `.jar` file will be in `build/libs/`
+   The compiled `.jar` file will be in `build/libs/blockminer-1.0.0.jar`
 
 ### Development Setup
 
@@ -197,7 +200,7 @@ Contributions are welcome! Here's how you can help:
 - **Minecraft**: 1.21.1+ (tested on 1.21.1)
 - **Fabric Loader**: 0.16.0+
 - **Fabric API**: 0.107.0+ for 1.21.1
-- **Java**: 21+
+- **Java**: 17+
 
 ## License
 
